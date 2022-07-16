@@ -8,7 +8,7 @@ describe("index.js", () => {
       expect(saturdayFun()).to.equal("This Saturday, I want to roller-skate!")
     })
 
-    it("permits the default activity to be overriden", function() {
+    it("permits the default activity to be overridden", function() {
       expect(saturdayFun("bathe my dog")).to.equal("This Saturday, I want to bathe my dog!")
     })
   })
@@ -22,7 +22,7 @@ describe("index.js", () => {
       expect(mondayWork()).to.equal("This Monday, I will go to the office.")
     })
 
-    it("permits the default activity to be overriden", function() {
+    it("permits the default activity to be overridden", function() {
       expect(mondayWork("work from home")).to.equal("This Monday, I will work from home.")
     })
   })
